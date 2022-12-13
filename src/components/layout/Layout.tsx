@@ -9,15 +9,15 @@ type LayoutProps = {
 const Layout = ({ topbar, sidebar, page }: LayoutProps) => {
     return (
         <div>
-            <div className='flex h-screen'>
+            <div className='flex h-screen w-screen'>
                 <div className='h-full'>
                     {sidebar}
                 </div>
                 <div className='w-full h-full flex-1'>
-                    <div className='w-full'>
+                    <div>
                         {topbar}
                     </div>
-                    <div className='p-3 w-full bg-yellow-100'>
+                    <div className='p-3 h-auto'>
                         {page}
                     </div>
                 </div>
