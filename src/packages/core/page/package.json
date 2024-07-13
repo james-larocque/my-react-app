@@ -1,0 +1,4 @@
+{
+    "name": "@myreact/core-page",
+    "main": "./index.tsx"
+}
