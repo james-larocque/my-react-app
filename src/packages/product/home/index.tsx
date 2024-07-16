@@ -1,20 +1,20 @@
 import React from 'react';
-import Page from '@myreact/core-page';
-import Sidebar from '@myreact/core-sidebar';
-import Topbar from '@myreact/core-topbar';
+import HelloWorld from '@myreact/product-hello-world';
+import Sidebar from '@myreact/product-sidebar';
+import Topbar from '@myreact/product-topbar';
 import Layout from '@myreact/core-layout';
 
-function HomePage() {
+function Home() {
     return (
       <div className="container">
         <Layout 
           topbar={<Topbar />}
           sidebar={<Sidebar />}
-          page={<Page />}
+          page={<HelloWorld />}
         />
       </div>
     );
   };
   
-  export default HomePage;
+  export default Home;
   
