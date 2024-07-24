@@ -8,6 +8,8 @@ const HelloWorld = () => {
             </p>
             <p className="text-gray-500 text-lg">
                 React and Tailwind CSS in action on Microsoft Azure Static Web Apps
+
+                So far, not so easy.
             </p>
         </div>
 
