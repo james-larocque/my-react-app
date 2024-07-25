@@ -7,9 +7,9 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "npx parcel ./src/index.html",
+    "start": "npm install && npx parcel ./src/spa/index.html",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "parcel build ./src/index.html --no-cache"
+    "build": "npm install && parcel build ./src/spa/index.html --no-cache"
   },
   "keywords": [],
   "author": "",
