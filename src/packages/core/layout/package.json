@@ -1,0 +1,4 @@
+{
+    "name": "@myreact/core-layout",
+    "main": "./index.tsx"
+}

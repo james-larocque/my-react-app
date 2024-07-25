@@ -1,5 +1,9 @@
 {
   "name": "my-react-app",
+  "private": true,
+  "workspaces":[
+    "./src/packages/**"
+  ],
   "version": "1.0.0",
   "description": "",
   "scripts": {
