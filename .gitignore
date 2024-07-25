@@ -181,4 +181,3 @@ sketch
 # NPM package Parcel related items, https://www.npmjs.com/package/parcel
 dist
 .parcel-cache
-build

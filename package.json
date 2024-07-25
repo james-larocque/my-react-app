@@ -5,7 +5,7 @@
   "scripts": {
     "start": "npx parcel ./src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "parcel build ./src/index.html --dist-dir ./build --no-cache"
+    "build": "parcel build ./src/index.html --no-cache"
   },
   "keywords": [],
   "author": "",
@@ -20,7 +20,7 @@
     "process": "^0.11.10",
     "tailwindcss": "^3.2.4"
   },
-  "browserModern": "build/index.html",
+  "browserModern": "dist/index.html",
   "targets": {
     "browserModern": {
       "engines": {
