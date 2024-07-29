@@ -1,8 +1,8 @@
 import React from 'react';
-import HelloWorld from '@myreact/product-hello-world';
-import Sidebar from '@myreact/product-sidebar';
-import Topbar from '@myreact/product-topbar';
-import Layout from '@myreact/core-layout';
+import HelloWorld from '@my-lawyer-portal/product-hello-world';
+import Sidebar from '@my-lawyer-portal/product-sidebar';
+import Topbar from '@my-lawyer-portal/product-topbar';
+import Layout from '@my-lawyer-portal/core-layout';
 
 function Home() {
     return (
